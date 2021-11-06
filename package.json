@@ -1,0 +1,48 @@
+{
+  "name": "base-webpack-project-config",
+  "version": "1.0.0",
+  "description": "base webpack project config",
+  "private": "true",
+  "scripts": {
+    "start": "webpack-dev-server",
+    "build": "yarn webpack",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elysee15/base-webpack-project-config.git"
+  },
+  "author": "elysee bleu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/elysee15/base-webpack-project-config/issues"
+  },
+  "homepage": "https://github.com/elysee15/base-webpack-project-config#readme",
+  "devDependencies": {
+    "@babel/core": "^7.16.0",
+    "@babel/plugin-proposal-export-default-from": "^7.16.0",
+    "@babel/preset-env": "^7.16.0",
+    "autoprefixer": "^10.4.0",
+    "babel-loader": "^8.2.3",
+    "css-loader": "^6.5.1",
+    "csv-loader": "^3.0.3",
+    "html-webpack-plugin": "^5.5.0",
+    "mini-css-extract-plugin": "^2.4.4",
+    "postcss": "^8.3.11",
+    "postcss-loader": "^6.2.0",
+    "postcss-preset-env": "^6.7.0",
+    "sass": "^1.43.4",
+    "sass-loader": "^12.3.0",
+    "style-loader": "^3.3.1",
+    "sugarss": "^4.0.1",
+    "webpack": "^5.61.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.4.0",
+    "xml-loader": "^1.2.1"
+  },
+  "dependencies": {
+    "lodash": "^4.17.21",
+    "normalize.css": "^8.0.1",
+    "postcss-short": "^5.0.0"
+  }
+}
